@@ -1,0 +1,14 @@
+***********************Iniciar Servidor**************************
+*								*
+*								*
+*•Desde la terminal ir a la carpeta server:			*
+*cd --> server							*
+*								*	
+*•Una vez dentro de la carpeta en la terminal poner el siguiente*
+*comando:                                                       *     
+*server> npm start                                              *
+*                      						*
+*•En el navegador copiar y pegar el siguiente puerto local:     *
+*localhost:8080							*
+*                                                               *
+******************************Fin********************************   

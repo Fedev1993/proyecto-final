@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SEV THE LEGACY OF COMPUTER</title>
+  <link rel="shortcut icon" href="./media/banner/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="./css/style.css">
+<script src="https://sdk.mercadopago.com/js/v2"></script>
+<script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+      <div class="banner">
+        <img src="./media/banner/SEV-1.png" alt="BANNER SEV">
+      </div>
+  </header>
+  <span class="contenedor-nav" id="btnMenu">☰Menú</span>
+  <nav class="main-menu">
+    <ul class="menu" id="menu-nav">
+      <li class="menu-element"><a href="./index.html" class="menu-link" id="btn-inicio" id="seccion-1">Inicio</a></li>
+      <li class="menu-element"><a href="./#nosotros" class="menu-link">Nosotros</a></li>
+
+      <li class="menu-element contenedor-submenu">
+        <a href="#" class="menu-link submenu-btn">Productos  ⌵</a>
+        <ul class="sub-menu">
+          <li class="menu-element"><a href="" class="menu-link" id="btn-auri" >Auriculares</a></li>
+          <li class="menu-element"><a href="" class="menu-link" id="btn-compu">Computadoras</a></li>
+          <li class="menu-element"><a href="" class="menu-link" id="btn-monitor">Monitor</a></li>
+          <li class="menu-element"><a href="" class="menu-link" id="btn-mouse">Mouse</a></li>
+          <li class="menu-element"><a href="" class="menu-link" id="btn-mothers">Mothers</a></li>
+          <li class="menu-element"><a href="" class="menu-link" id="btn-placa">Placas de videos</a></li>
+          <li class="menu-element"><a href="" class="menu-link" id="btn-process">Procesadores</a></li>
+        </ul>
+      </li>
+      <li class="menu-element"><a href="" class="menu-link" id="display-contacto">Contacto</a></li>
+      <li class="menu-element"><a href="" class="menu-link" id="lanzar-login">Ingresar</a></li>
+    </ul>
+  </nav>
+  
+  <div id="banner-container">
+    <div class="banner-slider">
+      <ul>
+      <li>
+      <img src="./media/banner-display/img-1.jpg" alt="Banner 1">
+      </li>
+      <li>
+      <img src="./media/banner-display/img-2.jpg" alt="Banner 2">
+      </li>
+      <li>
+      <img src="./media/banner-display/img-3.jpg" alt="Banner 3">
+      </li>
+      <li>
+      <img src="./media/banner-display/img-4.jpg" alt="Banner 4">
+      </li>
+      <li>
+      <img src="./media/banner-display/img-6.jpg" alt="Banner 6">
+      </li>
+      <li>
+      <img src="./media/banner-display/img-7.jpg" alt="Banner 7">
+      </li>
+      <li>
+      <img src="./media/banner-display/img-8.jpg" alt="Banner 8">
+      </li>
+      <li>
+      <img src="./media/banner-display/img-9.jpg" alt="Banner 9">
+      </li>
+      <li>
+      <img src="./media/banner-display/img-10.jpg" alt="Banner 10">
+      </li>
+      <li>
+      <img src="./media/banner-display/img-11.webp" alt="Banner 11">
+      </li>
+      <li>
+      <img src="./media/banner-display/img-12.webp" alt="Banner 12">
+      </li>
+      <li>
+      <img src="./media/banner-display/img-13.jpg" alt="Banner 13">
+      </li>
+    </ul>
+    </div>
+  </div>
+
+  <main>
+    <div class="contenedor-usuario"></div>
+    <div class="card-productos-contenedor">
+      <div class="card-productos" id="tiendaContenido">
+
+      </div>
+    </div>
+    <div class="cart-btn" id="cart-btn">🛒</div>
+
+    <span class="cart-counter" id="cart-counter">0</span>
+
+    <div class="modal-ventana" id="modal-ventana"></div>
+    <div class="modal-contenedor" id="modal-contenedor"></div>
+
+  <div class="modal-form-contenedor">
+    <div class="form-contenedor">
+      <img src="./media/banner/login.png" alt="login">
+      <form action="">
+        <input type="text" placeholder="Usuario" id="login-nombre">
+        <input type="password" placeholder="Contraseña" id="login-contraseña">
+        <button class="btn-form-login" type="submit" id="ocultar-modal-form">ENVIAR</button>
+        <button class="btn-form-login" id="ocultar-modal-cerrar">CERRAR</button>
+      </form> 
+    </div>
+  </div>
+
+  <div class="modal-contacto-contenedor">
+    <div class="form-contenedor-contacto">
+      <img src="./media/banner/contacto.png" alt="contacto">
+      <form action="">
+        <input type="text" placeholder="Nombre" id="contacto-usario">
+        <input type="email" placeholder="Email" required>
+         <textarea name="" id="" cols="30" rows="10"></textarea>
+        <button class="btn-form-contacto" type="submit" id="ocultar-contacto-form">ENVIAR</button>
+        <button class="btn-form-contacto" type="submit" id="ocultar-contacto-cerrar">CERRAR</button>
+      </form> 
+    </div>
+  </div>
+
+    <div id="paginacion">
+      <button id="btnAnterior">Anterior</button>
+      <button id="btnSiguiente">Siguiente</button>
+    </div>
+  </main>
+
+
+  <!--::::Pie de Pagina::::::-->
+  <footer class="pie-pagina" id="nosotros" id="seccion-3">
+    <div class="grupo-1">
+        <div class="box">
+            <figure>
+                <a href="#">
+                    <img src="./media/banner/SEV-footer.png" alt="SEV logo">
+                </a>
+            </figure>
+        </div>
+        <div class="box">
+            <h2>SOBRE NOSOTROS</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, ipsa?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, ipsa?</p>
+        </div>
+        <div class="box">
+            <h2>SIGUENOS</h2>
+            <div class="red-social">
+                <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+                <a href="https://www.instagram.com/" target="_blank" class="fa fa-instagram"></a>
+                <a href="https://twitter.com/?lang=es" target="_blank" class="fa fa-twitter"></a>
+                <a href="https://www.youtube.com/" target="_blank" class="fa fa-youtube"></a>
+            </div>
+        </div>
+    </div>
+    <div class="grupo-2">
+        <small>&copy; 2023 <b>SEV The Legacy of Computer</b> - Todos los Derechos Reservados.</small>
+    </div>
+</footer>
+
+  <script src="./js/contacto.js"></script>
+  <script src="./js/login.js"></script>
+  <script src="./js/menu.js"></script>
+  <script src="./js/productos.js"></script>
+  <script src="./js/app.js"></script>
+  <script src="./js/carrito.js"></script>
+</body>
+</html>
